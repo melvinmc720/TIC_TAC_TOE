@@ -24,7 +24,7 @@ extension ContentView{
         
         let computer = positions.filter({$0?.player == .computer})
         let Csituations = computer.map{$0?.place}
-        
+         
         
         let human = positions.filter({$0?.player == .player})
         let Hsituations = human.map{$0?.place}
